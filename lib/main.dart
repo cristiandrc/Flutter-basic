@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'description_place.dart';
-import "./review_list.dart";
-import './gradient_back.dart';
-import "./header_appbar.dart";
+import './platzi_trips.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
@@ -17,9 +14,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
-  final loren =
-      "m is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only ";
 
   // This widget is the root of your application.
   @override
@@ -37,25 +31,11 @@ class MyApp extends StatelessWidget {
           // or simply save your changes to "hot reload" in a Flutter IDE).
           // Notice that the counter didn't reset back to zero; the application
           // is not restarted.
-          primarySwatch: Colors.brown,
+          primarySwatch: Colors.blue,
         ),
-        home: Scaffold(
+        home: const Scaffold(
           // appBar: AppBar(title: const Text("Hello world Feliz")),
-          body: Stack(
-            children: [
-              ListView(
-                children: <Widget>[
-                  DescriptionPlace(
-                    "Bahamas",
-                    4,
-                    loren,
-                  ),
-                  ReviewList()
-                ],
-              ),
-              HeaderAppBar(),
-            ],
-          ),
+          body: PlatziTrips(),
         ) //const MyHomePage(title: 'Flutter Demo Home Page'),
         );
   }
