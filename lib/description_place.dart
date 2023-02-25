@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import 'button_porple.dart';
 
 class DescriptionPlace extends StatelessWidget {
   String namePlace;
@@ -90,6 +91,7 @@ class DescriptionPlace extends StatelessWidget {
       children: <Widget>[
         titleStarts,
         description,
+        ButtonPurple(),
       ],
     );
   }
