@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'profile/hero.dart';
-import 'profile/gradian_profile.dart';
-import 'profile/card_profile_list.dart';
+import 'hero.dart';
+import 'gradian_profile.dart';
+import '../widgets/card_profile_list.dart';
 
 class ProfileTrips extends StatelessWidget {
   const ProfileTrips({super.key});

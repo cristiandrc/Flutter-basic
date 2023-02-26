@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import './description_place.dart';
-import "./review_list.dart";
-import "./header_appbar.dart";
+import '../widgets/description_place.dart';
+import '../widgets/review_list.dart';
+import 'header_appbar.dart';
 
 class HomeTrips extends StatelessWidget {
   const HomeTrips({super.key});

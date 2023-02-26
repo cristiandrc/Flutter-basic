@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './card_profile.dart';
+import 'card_profile.dart';
 
 class CardProfileList extends StatelessWidget {
   const CardProfileList({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../review.dart';
-import 'menu_profile.dart';
+import '../../../Place/ui/widgets/review.dart';
+import '../widgets/menu_profile.dart';
 
 class HeroProfile extends StatelessWidget {
   const HeroProfile({super.key});
